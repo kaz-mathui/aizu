@@ -2,11 +2,10 @@ import sys
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 input_str = ''
 while True:
-  val = input().lower()
-  if val:
-    input_str += val
-  else:
-    break
+    try:
+        input_str += input().lower()
+    except EOFError:
+        break
 
 # input_str = []
 # for l in sys.stdin:
