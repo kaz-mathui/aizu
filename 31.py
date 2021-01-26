@@ -1,4 +1,4 @@
-import sys
+
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 input_str = ''
 while True:
